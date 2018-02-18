@@ -46,6 +46,9 @@ func ExampleGenerateChain() {
 	}
 	genesis := gspec.MustCommit(db)
 
+	// Ethereum FrontierBlockReward value
+	ethash.FrontierBlockReward = big.NewInt(5e+18)
+
 	// This call generates a chain of 5 blocks. The function runs for
 	// each block and adds different features to gen based on the
 	// block index.
