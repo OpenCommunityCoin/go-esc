@@ -36,6 +36,7 @@ import (
 )
 
 const (
+	clientIdentifier       = "gesc"               // Client identifier to advertise over the network
 	datadirPrivateKey      = "nodekey"            // Path within the datadir to the node's private key
 	datadirDefaultKeyStore = "keystore"           // Path within the datadir to the keystore
 	datadirStaticNodes     = "static-nodes.json"  // Path within the datadir to the static node list
@@ -228,8 +229,8 @@ func DefaultWSEndpoint() string {
 func (c *Config) NodeName() string {
 	name := c.name()
 	// Backwards compatibility: previous versions used title-cased "Geth", keep that.
-	if name == "geth" || name == "geth-testnet" {
-		name = "Geth"
+	if name == clientIdentifier || name == clientIdentifier + "-testnet" {
+		name = strings.Title(clientIdentifier)
 	}
 	if c.UserIdent != "" {
 		name += "/" + c.UserIdent

@@ -61,6 +61,11 @@ import (
 	"github.com/ethersocial/go-esc/internal/build"
 )
 
+const (
+	clientIdentifier  = "gesc" // Client identifier to advertise over the network
+	clientDescription = "Ethersocial Ethereum CLI client."
+)
+
 var (
 	// Files that end up in the geth*.zip archive.
 	gethArchiveFiles = []string{
@@ -375,6 +380,12 @@ func doArchive(cmdline []string) {
 		log.Fatal("unknown archive type: ", atype)
 	}
 
+	if clientIdentifier != "geth" {
+		build.CopyFile(executablePath(clientIdentifier), executablePath("geth"), 0755)
+		gethArchiveFiles = append(gethArchiveFiles, executablePath(clientIdentifier))
+		allToolsArchiveFiles = append(allToolsArchiveFiles, executablePath(clientIdentifier))
+	}
+
 	var (
 		env      = build.Env()
 		base     = archiveBasename(*arch, env)
@@ -552,6 +563,8 @@ func newDebMetadata(distro, author string, env build.Environment, t time.Time) d
 		// No signing key, use default author.
 		author = "Ethereum Builds <fjl@ethereum.org>"
 	}
+
+	debExecutables = append(debExecutables, debExecutable{clientIdentifier, clientDescription})
 	return debMetadata{
 		Env:         env,
 		Author:      author,
