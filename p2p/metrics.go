@@ -21,7 +21,7 @@ package p2p
 import (
 	"net"
 
-	"github.com/ethersocial/go-esc/metrics"
+	"github.com/ethereum/go-ethereum/metrics"
 )
 
 var (

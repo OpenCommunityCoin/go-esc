@@ -24,7 +24,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethersocial/go-esc/core/types"
+	"github.com/ethereum/go-ethereum/core/types"
 )
 
 // Tests that ethash works correctly in test mode.

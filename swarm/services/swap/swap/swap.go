@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersocial/go-esc/log"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 // SwAP Swarm Accounting Protocol with

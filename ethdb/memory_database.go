@@ -20,7 +20,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ethersocial/go-esc/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 /*
