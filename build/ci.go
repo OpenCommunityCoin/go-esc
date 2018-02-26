@@ -58,7 +58,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethersocial/go-esc/internal/build"
+	"github.com/ethereum/go-ethereum/internal/build"
 )
 
 const (

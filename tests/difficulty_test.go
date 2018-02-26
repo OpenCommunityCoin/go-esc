@@ -21,8 +21,8 @@ import (
 
 	"math/big"
 
-	"github.com/ethersocial/go-esc/common"
-	"github.com/ethersocial/go-esc/params"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 var (

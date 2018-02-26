@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/ethersocial/go-esc/params"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 func makeStackFunc(pop, push int) stackValidationFunc {

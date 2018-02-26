@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersocial/go-esc/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 type testInPayment struct {

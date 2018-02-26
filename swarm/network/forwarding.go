@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethersocial/go-esc/log"
-	"github.com/ethersocial/go-esc/swarm/storage"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/swarm/storage"
 )
 
 const requesterCount = 3

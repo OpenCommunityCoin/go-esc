@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersocial/go-esc/common"
-	"github.com/ethersocial/go-esc/core/vm"
-	"github.com/ethersocial/go-esc/params"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 type account struct{}

@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethersocial/go-esc/common"
-	"github.com/ethersocial/go-esc/rlp"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 // from bcValidBlockTest.json, "SimpleTx"
