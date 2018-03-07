@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethersocial/go-esc/common"
+	"github.com/ethersocial/go-esc/ethdb"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 
