@@ -229,7 +229,7 @@ func DefaultWSEndpoint() string {
 func (c *Config) NodeName() string {
 	name := c.name()
 	// Backwards compatibility: previous versions used title-cased "Geth", keep that.
-	if name == clientIdentifier || name == clientIdentifier + "-testnet" {
+	if name == clientIdentifier || name == clientIdentifier+"-testnet" {
 		name = strings.Title(clientIdentifier)
 	}
 	if c.UserIdent != "" {
