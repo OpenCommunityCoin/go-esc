@@ -19,7 +19,7 @@ package storage
 import (
 	"encoding/binary"
 
-	"github.com/ethersocial/go-esc/metrics"
+	"github.com/ethereum/go-ethereum/metrics"
 )
 
 //metrics variables

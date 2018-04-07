@@ -19,7 +19,7 @@ package swarm
 import (
 	"testing"
 
-	"github.com/ethersocial/go-esc/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 func TestParseEnsAPIAddress(t *testing.T) {

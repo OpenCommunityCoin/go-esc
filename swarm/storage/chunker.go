@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersocial/go-esc/metrics"
+	"github.com/ethereum/go-ethereum/metrics"
 )
 
 /*

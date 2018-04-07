@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersocial/go-esc/internal/build"
+	"github.com/ethereum/go-ethereum/internal/build"
 )
 
 // androidTestClass is a Java class to do some lightweight tests against the Android

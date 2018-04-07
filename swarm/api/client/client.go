@@ -33,7 +33,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethersocial/go-esc/swarm/api"
+	"github.com/ethereum/go-ethereum/swarm/api"
 )
 
 var (
