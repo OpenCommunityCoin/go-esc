@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethersocial/go-esn/node"
+	"github.com/ethersocial/go-esn/params"
 )
 
 const (

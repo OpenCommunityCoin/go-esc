@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethersocial/go-esn/common"
 )
 
 type Address common.Hash
