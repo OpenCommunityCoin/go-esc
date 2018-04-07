@@ -450,7 +450,7 @@ func (f *faucet) apiHandler(conn *websocket.Conn) {
 		case *noauthFlag:
 			username, avatar, address, err = authNoAuth(msg.URL)
 		default:
-			err = errors.New("Something funky happened, please open an issue at https://github.com/ethersocial/go-esc/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/ethersocial/go-esn/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

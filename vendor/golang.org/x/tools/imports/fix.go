@@ -714,7 +714,7 @@ func findImportGoPath(pkgName string, symbols map[string]bool, filename string) 
 
 	// FIXME
 	if pkgName == "ethereum" {
-		return "github.com/ethersocial/go-esc", true, nil
+		return "github.com/ethersocial/go-esn", true, nil
 	}
 
 	// TODO(sameer): look at the import lines for other Go files in the
