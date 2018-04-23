@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethersocial/go-esn/params"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 func TestTransaction(t *testing.T) {

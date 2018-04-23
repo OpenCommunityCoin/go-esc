@@ -22,15 +22,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/core"
-	"github.com/ethersocial/go-esn/core/state"
-	"github.com/ethersocial/go-esn/core/types"
-	"github.com/ethersocial/go-esn/ethdb"
-	"github.com/ethersocial/go-esn/event"
-	"github.com/ethersocial/go-esn/log"
-	"github.com/ethersocial/go-esn/params"
-	"github.com/ethersocial/go-esn/rlp"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/event"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 const (

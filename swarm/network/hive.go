@@ -22,13 +22,13 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/log"
-	"github.com/ethersocial/go-esn/metrics"
-	"github.com/ethersocial/go-esn/p2p/discover"
-	"github.com/ethersocial/go-esn/p2p/netutil"
-	"github.com/ethersocial/go-esn/swarm/network/kademlia"
-	"github.com/ethersocial/go-esn/swarm/storage"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/ethereum/go-ethereum/swarm/network/kademlia"
+	"github.com/ethereum/go-ethereum/swarm/storage"
 )
 
 // Hive is the logistic manager of the swarm

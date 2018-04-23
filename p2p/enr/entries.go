@@ -22,8 +22,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/ethersocial/go-esn/crypto"
-	"github.com/ethersocial/go-esn/rlp"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 // Entry is implemented by known node record entry types.

@@ -31,9 +31,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/crypto"
-	"github.com/ethersocial/go-esn/crypto/secp256k1"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto/secp256k1"
 )
 
 const NodeIDBits = 512

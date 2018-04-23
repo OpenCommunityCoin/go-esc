@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/common/mclock"
-	"github.com/ethersocial/go-esn/consensus"
-	"github.com/ethersocial/go-esn/core"
-	"github.com/ethersocial/go-esn/core/types"
-	"github.com/ethersocial/go-esn/light"
-	"github.com/ethersocial/go-esn/log"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/consensus"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/light"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 const (

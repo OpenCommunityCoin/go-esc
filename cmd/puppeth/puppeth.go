@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethersocial/go-esn/log"
+	"github.com/ethereum/go-ethereum/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -22,14 +22,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/contracts/ens"
-	"github.com/ethersocial/go-esn/crypto"
-	"github.com/ethersocial/go-esn/log"
-	"github.com/ethersocial/go-esn/node"
-	"github.com/ethersocial/go-esn/swarm/network"
-	"github.com/ethersocial/go-esn/swarm/services/swap"
-	"github.com/ethersocial/go-esn/swarm/storage"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/contracts/ens"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/node"
+	"github.com/ethereum/go-ethereum/swarm/network"
+	"github.com/ethereum/go-ethereum/swarm/services/swap"
+	"github.com/ethereum/go-ethereum/swarm/storage"
 )
 
 const (

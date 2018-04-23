@@ -17,14 +17,14 @@
 package core
 
 import (
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/consensus"
-	"github.com/ethersocial/go-esn/consensus/misc"
-	"github.com/ethersocial/go-esn/core/state"
-	"github.com/ethersocial/go-esn/core/types"
-	"github.com/ethersocial/go-esn/core/vm"
-	"github.com/ethersocial/go-esn/crypto"
-	"github.com/ethersocial/go-esn/params"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/consensus"
+	"github.com/ethereum/go-ethereum/consensus/misc"
+	"github.com/ethereum/go-ethereum/core/state"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning
