@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/light"
+	"github.com/ethersocial/go-esn/core"
+	"github.com/ethersocial/go-esn/eth/downloader"
+	"github.com/ethersocial/go-esn/light"
 )
 
 // syncer is responsible for periodically synchronising with the network, both
