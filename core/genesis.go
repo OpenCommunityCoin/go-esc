@@ -346,6 +346,18 @@ func DefaultTestnetGenesisBlock() *Genesis {
 	}
 }
 
+// DefaultSkynetGenesisBlock returns the Ropsten network genesis block.
+func DefaultSkynetGenesisBlock() *Genesis {
+	return &Genesis{
+		Config:     params.SkynetChainConfig,
+		Nonce:      66,
+		ExtraData:  hexutil.MustDecode("0x3535353535353535353535353535353535353535353535353535353535353535"),
+		GasLimit:   16777216,
+		Difficulty: big.NewInt(1048576),
+		Alloc:      decodePrealloc(skynetAllocData),
+	}
+}
+
 // DefaultRinkebyGenesisBlock returns the Rinkeby network genesis block.
 func DefaultRinkebyGenesisBlock() *Genesis {
 	return &Genesis{

@@ -27,6 +27,7 @@ var (
 	MainnetGenesisHash     = common.HexToHash("0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3") // Mainnet genesis hash to enforce below configs on
 	TestnetGenesisHash     = common.HexToHash("0x41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d") // Testnet genesis hash to enforce below configs on
 	EthersocialGenesisHash = common.HexToHash("0x310dd3c4ae84dd89f1b46cfdd5e26c8f904dfddddc73f323b468127272e20e9f") // Ethersocial genesis hash to enforce below configs on
+	SkynetGenesisHash      = common.HexToHash("0xabcca8259adf43270310766fd545b8f58d65d6c5001f2f646e0fbc229aced20e") // Ethersocial skynet genesis hash
 )
 
 var (
@@ -71,6 +72,21 @@ var (
 		EIP155Block:         big.NewInt(10),
 		EIP158Block:         big.NewInt(10),
 		ByzantiumBlock:      big.NewInt(1700000),
+		ConstantinopleBlock: nil,
+		Ethash:              new(EthashConfig),
+	}
+
+	// SkynetChainConfig contains the chain parameters to run a node on the Skynet test network.
+	SkynetChainConfig = &ChainConfig{
+		ChainId:             big.NewInt(12321),
+		HomesteadBlock:      big.NewInt(0),
+		DAOForkBlock:        nil,
+		DAOForkSupport:      true,
+		EIP150Block:         big.NewInt(0),
+		EIP150Hash:          common.HexToHash("0xabcca8259adf43270310766fd545b8f58d65d6c5001f2f646e0fbc229aced20e"),
+		EIP155Block:         big.NewInt(9000000),
+		EIP158Block:         big.NewInt(9000000),
+		ByzantiumBlock:      big.NewInt(100),
 		ConstantinopleBlock: nil,
 		Ethash:              new(EthashConfig),
 	}

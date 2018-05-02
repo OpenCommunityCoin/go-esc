@@ -38,6 +38,12 @@ var EthersocialBootnodes = []string{
 	"enode://1aded60f7986b8bccce5f3c20596724ab087af2dfa618f83a9ec385a4a34230e197a5c7a53db19a50b0eba6d5a08f0e02484587084c4bb2a8ecda43c0d337838@52.231.30.39:50505",  // genNode3
 }
 
+// SkynetBootnodes are the enode URLs of the P2P bootstrap nodes running on the
+// Skynet test network.
+var SkynetBootnodes = []string{
+	"enode://eece4a79e9dfa3e61209b006d97334f9310178de8efd0832f76372ab98abcc7d28ec050a1b43f03c3c5837fb4eb29e32f549f9afca38f10014d62f93de35ca45@52.170.148.239:50505",
+}
+
 // TestnetBootnodes are the enode URLs of the P2P bootstrap nodes running on the
 // Ropsten test network.
 var TestnetBootnodes = []string{
