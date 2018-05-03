@@ -507,7 +507,7 @@ var accumulateRewards func(config *params.ChainConfig, state *state.StateDB, hea
 // Prepare implements consensus.Engine, initializing the difficulty field of a
 // header to conform to the ethash protocol. The changes are done inline.
 func (ethash *Ethash) Prepare(chain consensus.ChainReader, header *types.Header) error {
-	if chain.GetHeaderByNumber(0).Hash() == params.EthersocialGenesisHash {
+	if chain.GetHeaderByNumber(0).Hash() == params.EthersocialGenesisHash || chain.GetHeaderByNumber(0).Hash() == params.SkynetGenesisHash {
 		// setup accumulateRewards for Ethersocial
 		accumulateRewards = ethersocialAccumulateRewards
 	}
