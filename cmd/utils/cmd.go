@@ -27,15 +27,15 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/core"
-	"github.com/ethersocial/go-esn/core/types"
-	"github.com/ethersocial/go-esn/crypto"
-	"github.com/ethersocial/go-esn/ethdb"
-	"github.com/ethersocial/go-esn/internal/debug"
-	"github.com/ethersocial/go-esn/log"
-	"github.com/ethersocial/go-esn/node"
-	"github.com/ethersocial/go-esn/rlp"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/internal/debug"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/node"
+	"github.com/ethereum/go-ethereum/rlp"
 )
 
 const (

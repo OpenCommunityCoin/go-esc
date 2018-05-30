@@ -25,10 +25,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/common/mclock"
-	"github.com/ethersocial/go-esn/crypto"
-	"github.com/ethersocial/go-esn/log"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 const (

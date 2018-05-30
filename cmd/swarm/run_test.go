@@ -27,13 +27,13 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethersocial/go-esn/accounts"
-	"github.com/ethersocial/go-esn/accounts/keystore"
-	"github.com/ethersocial/go-esn/internal/cmdtest"
-	"github.com/ethersocial/go-esn/node"
-	"github.com/ethersocial/go-esn/p2p"
-	"github.com/ethersocial/go-esn/rpc"
-	"github.com/ethersocial/go-esn/swarm"
+	"github.com/ethereum/go-ethereum/accounts"
+	"github.com/ethereum/go-ethereum/accounts/keystore"
+	"github.com/ethereum/go-ethereum/internal/cmdtest"
+	"github.com/ethereum/go-ethereum/node"
+	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ethereum/go-ethereum/swarm"
 )
 
 func init() {

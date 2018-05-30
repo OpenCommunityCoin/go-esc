@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersocial/go-esn/crypto/sha3"
+	"github.com/ethereum/go-ethereum/crypto/sha3"
 )
 
 const (

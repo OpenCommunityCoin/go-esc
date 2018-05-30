@@ -23,14 +23,14 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/common/math"
-	"github.com/ethersocial/go-esn/consensus/ethash"
-	"github.com/ethersocial/go-esn/core/types"
-	"github.com/ethersocial/go-esn/core/vm"
-	"github.com/ethersocial/go-esn/crypto"
-	"github.com/ethersocial/go-esn/ethdb"
-	"github.com/ethersocial/go-esn/params"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/ethereum/go-ethereum/consensus/ethash"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 func BenchmarkInsertChain_empty_memdb(b *testing.B) {

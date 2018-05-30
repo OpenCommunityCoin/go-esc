@@ -23,11 +23,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/core/types"
-	"github.com/ethersocial/go-esn/ethdb"
-	"github.com/ethersocial/go-esn/event"
-	"github.com/ethersocial/go-esn/log"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/event"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 // ChainIndexerBackend defines the methods needed to process chain segments in

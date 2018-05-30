@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/core/types"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/types"
 )
 
 // TxPreEvent is posted when a transaction enters the transaction pool.

@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethersocial/go-esn/params"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 const (
