@@ -24,13 +24,13 @@ import (
 	"net"
 	"os"
 
-	"github.com/ethersocial/go-esn/cmd/utils"
-	"github.com/ethersocial/go-esn/crypto"
-	"github.com/ethersocial/go-esn/log"
-	"github.com/ethersocial/go-esn/p2p/discover"
-	"github.com/ethersocial/go-esn/p2p/discv5"
-	"github.com/ethersocial/go-esn/p2p/nat"
-	"github.com/ethersocial/go-esn/p2p/netutil"
+	"github.com/ethereum/go-ethereum/cmd/utils"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/ethereum/go-ethereum/p2p/discv5"
+	"github.com/ethereum/go-ethereum/p2p/nat"
+	"github.com/ethereum/go-ethereum/p2p/netutil"
 )
 
 func main() {

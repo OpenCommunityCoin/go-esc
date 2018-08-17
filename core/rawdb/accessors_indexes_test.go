@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/core/types"
-	"github.com/ethersocial/go-esn/ethdb"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/ethdb"
 )
 
 // Tests that positional lookup metadata can be stored and retrieved.

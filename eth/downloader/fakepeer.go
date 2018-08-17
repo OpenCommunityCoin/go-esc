@@ -19,11 +19,11 @@ package downloader
 import (
 	"math/big"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/core"
-	"github.com/ethersocial/go-esn/core/rawdb"
-	"github.com/ethersocial/go-esn/core/types"
-	"github.com/ethersocial/go-esn/ethdb"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/ethdb"
 )
 
 // FakePeer is a mock downloader peer that operates on a local database instance

@@ -29,7 +29,7 @@ import (
 	"net"
 	"sort"
 
-	"github.com/ethersocial/go-esn/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 const (

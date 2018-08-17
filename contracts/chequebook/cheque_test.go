@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersocial/go-esn/accounts/abi/bind"
-	"github.com/ethersocial/go-esn/accounts/abi/bind/backends"
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/contracts/chequebook/contract"
-	"github.com/ethersocial/go-esn/core"
-	"github.com/ethersocial/go-esn/crypto"
+	"github.com/ethereum/go-ethereum/accounts/abi/bind"
+	"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/contracts/chequebook/contract"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 var (
