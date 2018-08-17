@@ -49,7 +49,7 @@ var (
 
 	// Ethersocial Mainnet chain parameters
 	EthersocialChainConfig = &ChainConfig{
-		ChainId:             big.NewInt(31102),
+		ChainID:             big.NewInt(31102),
 		HomesteadBlock:      big.NewInt(0),
 		DAOForkBlock:        big.NewInt(0),
 		DAOForkSupport:      false,
@@ -79,7 +79,7 @@ var (
 
 	// SkynetChainConfig contains the chain parameters to run a node on the Skynet test network.
 	SkynetChainConfig = &ChainConfig{
-		ChainId:             big.NewInt(131102),
+		ChainID:             big.NewInt(131102),
 		HomesteadBlock:      big.NewInt(0),
 		DAOForkBlock:        nil,
 		DAOForkSupport:      true,
