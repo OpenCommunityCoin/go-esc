@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ethersocial/go-esn/log"
-	"github.com/ethersocial/go-esn/p2p/simulations"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/p2p/simulations"
 )
 
 // Package defaults.

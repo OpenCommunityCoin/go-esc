@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersocial/go-esn/swarm/log"
+	"github.com/ethereum/go-ethereum/swarm/log"
 )
 
 /*

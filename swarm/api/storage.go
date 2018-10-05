@@ -20,7 +20,7 @@ import (
 	"context"
 	"path"
 
-	"github.com/ethersocial/go-esn/swarm/storage"
+	"github.com/ethereum/go-ethereum/swarm/storage"
 )
 
 type Response struct {
