@@ -23,9 +23,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ethersocial/go-esn/p2p"
-	"github.com/ethersocial/go-esn/p2p/protocols"
-	"github.com/ethersocial/go-esn/swarm/log"
+	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/ethereum/go-ethereum/p2p/protocols"
+	"github.com/ethereum/go-ethereum/swarm/log"
 )
 
 // Generic ping protocol implementation for

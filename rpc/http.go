@@ -31,7 +31,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersocial/go-esn/log"
+	"github.com/ethereum/go-ethereum/log"
 	"github.com/rs/cors"
 )
 

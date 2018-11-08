@@ -24,7 +24,7 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/ethersocial/go-esn/swarm/log"
+	"github.com/ethereum/go-ethereum/swarm/log"
 )
 
 func externalUnmount(mountPoint string) error {

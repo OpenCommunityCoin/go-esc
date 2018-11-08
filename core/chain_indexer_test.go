@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/core/rawdb"
-	"github.com/ethersocial/go-esn/core/types"
-	"github.com/ethersocial/go-esn/ethdb"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/ethdb"
 )
 
 // Runs multiple tests with randomized parameters.

@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/consensus/ethash"
-	"github.com/ethersocial/go-esn/core"
-	"github.com/ethersocial/go-esn/eth"
-	"github.com/ethersocial/go-esn/internal/jsre"
-	"github.com/ethersocial/go-esn/node"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/consensus/ethash"
+	"github.com/ethereum/go-ethereum/core"
+	"github.com/ethereum/go-ethereum/eth"
+	"github.com/ethereum/go-ethereum/internal/jsre"
+	"github.com/ethereum/go-ethereum/node"
 )
 
 const (

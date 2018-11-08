@@ -21,10 +21,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/crypto"
-	"github.com/ethersocial/go-esn/log"
-	"github.com/ethersocial/go-esn/metrics"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/metrics"
 )
 
 var (

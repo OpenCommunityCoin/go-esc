@@ -28,17 +28,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/node"
-	"github.com/ethersocial/go-esn/p2p"
-	"github.com/ethersocial/go-esn/p2p/discover"
-	"github.com/ethersocial/go-esn/p2p/simulations/adapters"
-	"github.com/ethersocial/go-esn/swarm/log"
-	"github.com/ethersocial/go-esn/swarm/network"
-	"github.com/ethersocial/go-esn/swarm/network/simulation"
-	"github.com/ethersocial/go-esn/swarm/state"
-	"github.com/ethersocial/go-esn/swarm/storage"
-	mockdb "github.com/ethersocial/go-esn/swarm/storage/mock/db"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/node"
+	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
+	"github.com/ethereum/go-ethereum/swarm/log"
+	"github.com/ethereum/go-ethereum/swarm/network"
+	"github.com/ethereum/go-ethereum/swarm/network/simulation"
+	"github.com/ethereum/go-ethereum/swarm/state"
+	"github.com/ethereum/go-ethereum/swarm/storage"
+	mockdb "github.com/ethereum/go-ethereum/swarm/storage/mock/db"
 )
 
 const dataChunkCount = 200
