@@ -24,13 +24,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethersocial/go-esn/crypto"
-	"github.com/ethersocial/go-esn/p2p"
-	"github.com/ethersocial/go-esn/p2p/enode"
-	"github.com/ethersocial/go-esn/p2p/protocols"
-	"github.com/ethersocial/go-esn/rpc"
-	"github.com/ethersocial/go-esn/swarm/log"
-	"github.com/ethersocial/go-esn/swarm/state"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/ethereum/go-ethereum/p2p/protocols"
+	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ethereum/go-ethereum/swarm/log"
+	"github.com/ethereum/go-ethereum/swarm/state"
 )
 
 const (

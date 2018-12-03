@@ -24,9 +24,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethersocial/go-esn/crypto"
-	"github.com/ethersocial/go-esn/swarm/storage"
-	"github.com/ethersocial/go-esn/swarm/storage/feed/lookup"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/ethereum/go-ethereum/swarm/storage/feed/lookup"
 )
 
 func areEqualJSON(s1, s2 string) (bool, error) {

@@ -28,9 +28,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	swarm "github.com/ethersocial/go-esn/swarm/api/client"
+	swarm "github.com/ethereum/go-ethereum/swarm/api/client"
 
-	"github.com/ethersocial/go-esn/cmd/utils"
+	"github.com/ethereum/go-ethereum/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

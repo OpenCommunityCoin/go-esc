@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/common/math"
-	"github.com/ethersocial/go-esn/core/types"
-	"github.com/ethersocial/go-esn/crypto/sha3"
-	"github.com/ethersocial/go-esn/params"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/crypto/sha3"
+	"github.com/ethereum/go-ethereum/params"
 )
 
 var (

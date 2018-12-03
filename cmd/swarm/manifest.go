@@ -22,9 +22,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethersocial/go-esn/cmd/utils"
-	"github.com/ethersocial/go-esn/swarm/api"
-	swarm "github.com/ethersocial/go-esn/swarm/api/client"
+	"github.com/ethereum/go-ethereum/cmd/utils"
+	"github.com/ethereum/go-ethereum/swarm/api"
+	swarm "github.com/ethereum/go-ethereum/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

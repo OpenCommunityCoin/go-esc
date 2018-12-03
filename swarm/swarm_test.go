@@ -28,10 +28,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/crypto"
-	"github.com/ethersocial/go-esn/rpc"
-	"github.com/ethersocial/go-esn/swarm/api"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ethereum/go-ethereum/swarm/api"
 )
 
 // TestNewSwarm validates Swarm fields in repsect to the provided configuration.

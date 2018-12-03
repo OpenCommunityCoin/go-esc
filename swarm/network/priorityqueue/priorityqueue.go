@@ -29,7 +29,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ethersocial/go-esn/log"
+	"github.com/ethereum/go-ethereum/log"
 )
 
 var (

@@ -19,7 +19,7 @@ package simulation
 import (
 	"strings"
 
-	"github.com/ethersocial/go-esn/p2p/enode"
+	"github.com/ethereum/go-ethereum/p2p/enode"
 )
 
 // ConnectToPivotNode connects the node with provided NodeID

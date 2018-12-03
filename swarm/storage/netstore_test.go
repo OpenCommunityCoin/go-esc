@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/p2p/enode"
-	ch "github.com/ethersocial/go-esn/swarm/chunk"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/p2p/enode"
+	ch "github.com/ethereum/go-ethereum/swarm/chunk"
 )
 
 var sourcePeerID = enode.HexID("99d8594b52298567d2ca3f4c441a5ba0140ee9245e26460d01102a52773c73b9")

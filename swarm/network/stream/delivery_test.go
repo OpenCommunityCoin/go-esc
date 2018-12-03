@@ -27,15 +27,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethersocial/go-esn/node"
-	"github.com/ethersocial/go-esn/p2p"
-	"github.com/ethersocial/go-esn/p2p/simulations/adapters"
-	p2ptest "github.com/ethersocial/go-esn/p2p/testing"
-	"github.com/ethersocial/go-esn/swarm/log"
-	"github.com/ethersocial/go-esn/swarm/network"
-	"github.com/ethersocial/go-esn/swarm/network/simulation"
-	"github.com/ethersocial/go-esn/swarm/state"
-	"github.com/ethersocial/go-esn/swarm/storage"
+	"github.com/ethereum/go-ethereum/node"
+	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
+	p2ptest "github.com/ethereum/go-ethereum/p2p/testing"
+	"github.com/ethereum/go-ethereum/swarm/log"
+	"github.com/ethereum/go-ethereum/swarm/network"
+	"github.com/ethereum/go-ethereum/swarm/network/simulation"
+	"github.com/ethereum/go-ethereum/swarm/state"
+	"github.com/ethereum/go-ethereum/swarm/storage"
 )
 
 func TestStreamerRetrieveRequest(t *testing.T) {

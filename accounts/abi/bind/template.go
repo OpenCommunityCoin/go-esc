@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/ethersocial/go-esn/accounts/abi"
+import "github.com/ethereum/go-ethereum/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -68,12 +68,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/ethersocial/go-esn"
-	"github.com/ethersocial/go-esn/accounts/abi"
-	"github.com/ethersocial/go-esn/accounts/abi/bind"
-	"github.com/ethersocial/go-esn/common"
-	"github.com/ethersocial/go-esn/core/types"
-	"github.com/ethersocial/go-esn/event"
+	ethereum "github.com/ethereum/go-ethereum"
+	"github.com/ethereum/go-ethereum/accounts/abi"
+	"github.com/ethereum/go-ethereum/accounts/abi/bind"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/ethereum/go-ethereum/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

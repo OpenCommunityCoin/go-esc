@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ethersocial/go-esn/swarm/api"
-	swarm "github.com/ethersocial/go-esn/swarm/api/client"
+	"github.com/ethereum/go-ethereum/swarm/api"
+	swarm "github.com/ethereum/go-ethereum/swarm/api/client"
 )
 
 // TestManifestChange tests manifest add, update and remove

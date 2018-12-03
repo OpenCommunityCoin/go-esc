@@ -19,7 +19,7 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/ethersocial/go-esn/p2p/enode"
+	"github.com/ethereum/go-ethereum/p2p/enode"
 )
 
 // Protocol represents a P2P subprotocol implementation.

@@ -25,9 +25,9 @@ import (
 	"sync"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethersocial/go-esn/common/hexutil"
-	"github.com/ethersocial/go-esn/internal/ethapi"
-	"github.com/ethersocial/go-esn/log"
+	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/internal/ethapi"
+	"github.com/ethereum/go-ethereum/log"
 	"golang.org/x/crypto/ssh/terminal"
 )
 
