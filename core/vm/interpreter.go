@@ -21,9 +21,9 @@ import (
 	"hash"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethersocial/go-esn/common"
+	"github.com/ethersocial/go-esn/common/math"
+	"github.com/ethersocial/go-esn/params"
 )
 
 // Config are the configuration options for the Interpreter

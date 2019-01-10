@@ -22,11 +22,11 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethersocial/go-esn/common"
+	"github.com/ethersocial/go-esn/common/prque"
+	"github.com/ethersocial/go-esn/consensus"
+	"github.com/ethersocial/go-esn/core/types"
+	"github.com/ethersocial/go-esn/log"
 )
 
 const (

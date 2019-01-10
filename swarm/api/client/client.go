@@ -37,11 +37,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/swarm/api"
-	"github.com/ethereum/go-ethereum/swarm/spancontext"
-	"github.com/ethereum/go-ethereum/swarm/storage/feed"
+	"github.com/ethersocial/go-esn/log"
+	"github.com/ethersocial/go-esn/metrics"
+	"github.com/ethersocial/go-esn/swarm/api"
+	"github.com/ethersocial/go-esn/swarm/spancontext"
+	"github.com/ethersocial/go-esn/swarm/storage/feed"
 	"github.com/pborman/uuid"
 )
 
