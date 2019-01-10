@@ -23,8 +23,8 @@ import (
 const (
 	VersionMajor = 1        // Major version component of the current release
 	VersionMinor = 8        // Minor version component of the current release
-	VersionPatch = 19       // Patch version component of the current release
-	VersionMeta  = "esn-0.3.9-unstable" // Version metadata to append to the version string
+	VersionPatch = 20       // Patch version component of the current release
+	VersionMeta  = "esn-0.3.10-unstable" // Version metadata to append to the version string
 )
 
 // Version holds the textual version string.
